@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GreenTech Solutions</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+  <div class="logo-container">
+    <img src="logo.png" alt="GreenTech Logo" class="logo" />
+    <div>
+      <h1>GreenTech Solutions</h1>
+      <p class="tagline">Innovating for a Sustainable Future</p>
+    </div>
+  </div>
+  <div class="navbar-wrapper">
+    <nav class="navbar" id="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+  <main>
+    <section class="intro" id="home">
+      <h2>Solar Panels</h2>
+      <img src="solar.png" alt="Solar Panel" class="main-image" />
+      <p id="introParagraph">
+        GreenTech Solutions is a leader in sustainable energy, offering innovative technologies
+        like high-efficiency solar panels, solar roof, eco-battery and green charge stations.
+        Our mission is to create a cleaner and greener future for all.
+      </p>
+      <button id="toggleIntroBtn">Hide Intro</button>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        GreenTech Solutions is a clean energy innovator committed to creating a sustainable planet.
+        Our team of experts work on solar technologies, battery storage, and EV infrastructure
+        to make renewable energy accessible and affordable.
+      </p>
+    </section>
+
+    <section id="services">
+      <h2>Services</h2>
+      <ul>
+        <li>Residential Solar Panel Installation</li>
+        <li>Commercial Energy Solutions</li>
+        <li>Energy Storage Consultation</li>
+        <li>EV Charging Station Setup</li>
+        <li>System Monitoring and Maintenance</li>
+      </ul>
+    </section>
+
+    <section class="products" id="products">
+      <h2>Product Highlights</h2>
+      <div class="product-container">
+       <div class="product">
+          <h3>Smart Solar Roof</h3>
+          <p>Seamlessly integrated solar roofing that generates clean energy while enhancing your home’s appearance.</p>
+          <button class="learnMoreBtn">Learn More</button>
+        </div>
+        <div class="product">
+          <h3>EcoBattery</h3>
+          <p>Reliable and sustainable battery storage that keeps your home powered day and night.</p>
+         <button class="learnMoreBtn">Learn More</button>
+        </div>
+        <div class="product">
+          <h3>GreenCharge Station</h3>
+          <p>Efficient EV charging stations that support your transition to electric mobility.</p>
+          <button class="learnMoreBtn">Learn More</button>
+        </div>
+      </div>
+    </section>
+        
+  </main>
+
+  <footer id="contact">
+    <div class="contact-info">
+      <p>Email: info@greentech.com</p>
+      <p>Phone: (666) 666-6666</p>
+      <p>Address: 88888 Broadway 1400, New York, New York, United States</p>
+      <p>Join our newsletter:</p>
+      <form id="newsletterForm">
+        <input type="email" id="email" placeholder="Enter your email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+      <p id="thankYouMessage" style="display:none; color: green;">Thank you for subscribing!</p>
+    </div>
+    <div class="social-media">
+      <img src="facebook.png" alt="Facebook" />
+      <img src="twitter.png" alt="Twitter" />
+      <img src="linkedin.png" alt="LinkedIn" />
+    </div>
+    <p class="copyright">&copy; <span id="year"></span> GreenTech Solutions. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
